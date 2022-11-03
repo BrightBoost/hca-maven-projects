@@ -1,2 +1,4 @@
-package com.hca;public interface Tadaaa {
+package com.hca;
+
+public interface Tadaaa {
 }
