@@ -14,7 +14,11 @@ public class MyFirstSpringBootAppApplication {
 		}
 		
 		Person person = ac.getBean(Person.class);
-		System.out.println(person);
+		System.out.println("context:" + person);
+		
+		Person p = new Person();
+		System.out.println("my 0wn:" + p);
+
 	}
 
 }

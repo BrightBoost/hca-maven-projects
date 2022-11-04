@@ -16,9 +16,9 @@ public class BasicConfiguration {
 		return 25;
 	}
 	
-	@Bean("blabla")
-	public Person per() {
-		return new Person();
-	}
+//	@Bean("blabla")
+//	public Person per() {
+//		return new Person();
+//	}
 
 }
