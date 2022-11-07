@@ -28,7 +28,6 @@ public class SongController {
 	
 	@PostMapping
 	public Song addSong(@RequestBody Song song) {
-		SongController s = new SongController(); // this is not a bean, i made this
 		return songService.addSong(song);
 	}
 	
