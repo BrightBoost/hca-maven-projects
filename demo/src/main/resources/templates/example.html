@@ -6,5 +6,12 @@
 </head>
 <body>
 	<p th:text="'Hi ' + ${name}">Default value</p>
+	<p th:if="${name} == 'Maaike'">Ah Maaike, I know her.</p>
+	<p th:unless="${name} == 'Maaike'"
+		th:text="'Ah, ' + ${name} + ', I don\'t know that
+person.'"></p>
+	<ul>
+		<li th:each="n: ${names}" th:text="${n}"></li>
+	</ul>
 </body>
 </html>
