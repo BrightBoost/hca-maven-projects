@@ -1,0 +1,16 @@
+<!DOCTYPE HTML>
+<html xmlns:th="https://www.thymeleaf.org">
+<head>
+<title>Dog form</title>
+<meta http-equiv="Content-Type" content="text/html;
+charset=UTF-8" />
+</head>
+<body>
+	<div th:each="dog: ${dogs}">
+	  <p th:text="${dog.name}"></p>
+	  <p th:text="${dog.age}"></p>
+	  <p th:text="${dog.humanAge}"></p>
+	  <p>*******</p>
+	</div>
+</body>
+</html>
