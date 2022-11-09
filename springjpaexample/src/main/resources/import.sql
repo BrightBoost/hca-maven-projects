@@ -1,3 +1,3 @@
-insert into person values(1, 'Pradeepa');
-insert into person values(2, 'Courtney');
-insert into person values(3, 'Emin');
+insert into person values(100, 'Pradeepa');
+insert into person values(200, 'Courtney');
+insert into person values(300, 'Emin');
